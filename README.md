@@ -7,7 +7,9 @@ Interface) protocol.
 
 It can used to interact with a 3.3V or 5V microcontrollers.
 
-MORE INFO [here](https://learn.adafruit.com/adafruit-micro-sd-breakout-board-card-tutorial?view=all)
+MORE INFO : [here](https://learn.adafruit.com/adafruit-micro-sd-breakout-board-card-tutorial?view=all)
+
+SD CARD DOCUMENTATION : [here](https://docs.arduino.cc/libraries/sd/)
 
 ----
 # TUTORIAL : WRITING FILES TO AN SD CARD USING ARDUINO
@@ -59,5 +61,12 @@ Diagram reference image [here](https://github.com/kingston-hackSpace/SDCard/blob
 
 - Done! You have created a file titled ‘TEXT.txt’ written on your SD Card! Now, remove the SD card from the module and insert it in your computer to check that your *.txt* file has been created properly. Let’s open it and see what was written in it. It should look something like [this](https://github.com/kingston-hackSpace/SDCard/blob/main/print.png)
 
+- Play and Text: Insert the SD card back to the SDCard-module. Observe your code and :
+   
+    - try changing the name of the *.txt* file.
+    
+    - try changing the content written in the *.txt* file
+
+    - upload the new code to the Arduino Board. Has it worked?
   
   
