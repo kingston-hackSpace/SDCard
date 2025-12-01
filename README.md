@@ -46,7 +46,8 @@ Diagram reference image [here](https://github.com/kingston-hackSpace/SDCard/blob
   
 - Upload [this code](https://github.com/kingston-hackSpace/SDCard/blob/main/SDCARD_test/SDCARD_test.ino) to your Arduino Board
 
-- Open Arduino's  Serial Monitor to check if the communication between Arduino and the SD Card Module is working properly. Your Serial Monitor should print the following message:
+- Open Arduino's  Serial Monitor to check if the communication between Arduino and the SD Card Module is working properly. Your Serial Monitor should print the following message (see reference image [here](https://github.com/kingston-hackSpace/SDCard/blob/main/Init.png))
+  
     ```
     Initializing SD Card...
     SD Card initialised successfully.
@@ -54,8 +55,9 @@ Diagram reference image [here](https://github.com/kingston-hackSpace/SDCard/blob
     done. SD Card ready
     ```
 
-See reference image [here]
 
-- Done!
-- 
+
+- Done! You have created a file titled ‘TEXT.txt’ written on your SD Card! Now, remove the SD card from the module and insert it in your computer to check that your *.txt* file has been created properly. Let’s open it and see what was written in it. It should look something like [this](https://github.com/kingston-hackSpace/SDCard/blob/main/print.png)
+
+  
   
